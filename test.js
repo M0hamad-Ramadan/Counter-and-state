@@ -5,6 +5,7 @@ const MyForm = () => {
 
   function addFive() {
     setNewState(number + 5);
+    alert(number);
   }
 
   return (
