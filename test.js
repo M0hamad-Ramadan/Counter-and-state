@@ -6,7 +6,7 @@ const MyForm = () => {
   function addFive() {
     setNewState(number + 5);
     setTimeout(() => {
-      alert(number);
+      alert(number); // 
     }, 3000);
   }
 
